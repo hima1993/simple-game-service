@@ -22,7 +22,7 @@ public class HistoryServiceImpl implements HistoryService{
     @Override
     public Optional<GameHistory> getPlayerRoundHistory(Player player, int round){
         if(player.games.size() >= round){
-            return Optional.of(mapHistory(player.games.get(round)));
+            return Optional.of(mapHistory(player.games.get(round-1)));
         }else{
             return Optional.empty();
         }

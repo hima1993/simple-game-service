@@ -5,7 +5,7 @@
 
   Need to have Java installed in the PC you are going to run the JAR file. (In my case I used Java 11.0.12 version)
 
-   <h2>Requirements</h2>
+   <h2>Run</h2>
   In order to run the application go to "Jar File" folder and execute the common java -jar gameService-0.0.1-SNAPSHOT
   
   

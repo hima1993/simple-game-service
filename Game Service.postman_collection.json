@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "41a7eef0-6b7b-4321-8c56-dcbe4ee7a7db",
+		"name": "Game Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/gameController/createuser/player/:playerId/password/:password",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"gameController",
+						"createuser",
+						"player",
+						":playerId",
+						"password",
+						":password"
+					],
+					"variable": [
+						{
+							"key": "playerId",
+							"value": "hima12334"
+						},
+						{
+							"key": "password",
+							"value": "1234"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Balance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/gameController/balance/:playerId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"gameController",
+						"balance",
+						":playerId"
+					],
+					"variable": [
+						{
+							"key": "playerId",
+							"value": "hima12334"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"amount\":2,\n\t\"userId\":\"hima12334\",\n\t\"mode\":\"PLAY_MONEY\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/gameController/bet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"gameController",
+						"bet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Hitsory by Player Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/gameController/history/player/:playerId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"gameController",
+						"history",
+						"player",
+						":playerId"
+					],
+					"variable": [
+						{
+							"key": "playerId",
+							"value": "hima12334"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get History by Player id and round",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/gameController/history/player/:playerId/round/:round",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"gameController",
+						"history",
+						"player",
+						":playerId",
+						"round",
+						":round"
+					],
+					"variable": [
+						{
+							"key": "playerId",
+							"value": "hima12334"
+						},
+						{
+							"key": "round",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

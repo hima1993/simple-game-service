@@ -6,7 +6,7 @@
   Need to have Java installed in the PC you are going to run the JAR file. (In my case I used Java 11.0.12 version)
 
    <h2>Requirements</h2>
-  In order to run the application go to Target folder and execute the common java -jar gameService-0.0.1-SNAPSHOT
+  In order to run the application go to "Jar File" folder and execute the common java -jar gameService-0.0.1-SNAPSHOT
   
   
 <h1>Limitations </h1>
@@ -28,3 +28,7 @@
     </li>
 </ol>
 
+<h1>API Documentation</h1>
+
+API documentation avaialble here : <p>API documentation <a href="http://example.com">link</a>.</p>
+Also, I have upload the postman collection called "Game Service.postman_collection.json" with the essential HTTP Requests.

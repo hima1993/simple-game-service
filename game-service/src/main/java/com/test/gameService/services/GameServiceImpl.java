@@ -25,15 +25,6 @@ public class GameServiceImpl implements GameService
 {
     public final double MIN_BET_AMOUNT = 0;
     public final double MAX_BET_AMOUNT = 10;
-    public final int WINNING_PERCENTAGE = 30;
-
-    public final int BIG_WIN_PERCENTAGE =5;
-    public final int MEDIUM_WIN_PERCENTAGE =25;
-
-    public final int BIG_WIN = 50;
-    public final int MEDIUM_WIN = 10;
-    public final int SMALL_WIN = 3;
-
 
     private boolean isValidBet(Double amount){
         return amount.compareTo(MIN_BET_AMOUNT) >0 && amount.compareTo(MAX_BET_AMOUNT) <= 0;

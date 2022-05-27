@@ -30,5 +30,5 @@
 
 <h1>API Documentation</h1>
 
-API documentation avaialble here : <p>API documentation <a href="http://example.com">link</a>.</p>
+API documentation avaialble here : <p>API documentation:  <a href="https://github.com/hima1993/simple-game-service/blob/f67ceaf0725ef05a8a017b9f9d04cae705876ef7/API%20Documentation.pdf">API Documentation.pdf</a></p>
 Also, I have upload the postman collection called "Game Service.postman_collection.json" with the essential HTTP Requests.
